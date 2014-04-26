@@ -1,9 +1,5 @@
 (def ^:private twitter (require :twitter))
 
-(def ^:private ks {:consumer_key "jLoBEo5gcE7I9gTUJJnDoA",
-  :consumer_secret "qEgqj9boQevqHFuLG6doVBpnBLeVhlWvPyiYi1yB3c",
-  :access_token_key "349098849-aaRAy3HKGch6ExrbYn1pRwxWrrmf4sFyp6Et81dF",
-  :access_token_secret "s1azqjj9QUGBwzvZzxM3AQnuvXMsUks03EKxQflc7Iwam"})
 
 (def track "I think")
 (def twit (twitter. ks))
